@@ -1,0 +1,114 @@
+/* ----- Global ----- */
+* {
+     box-sizing: border-box;
+}
+html, body {
+     height: 100%;
+}
+body {
+     background-color: #01e37f;
+     font-family: 'Nunito Sans', sans-serif;
+}
+h3 {
+     font-size: 0.7em;
+     letter-spacing: 1.2px;
+     color: #a6a6a6;
+}
+img {
+     filter: drop-shadow(1px 1px 3px #a6a6a6);
+     width: 100%;
+}
+.content{
+     padding-inline: 15px;
+     max-width: 1000px;
+     margin: auto;
+}
+/* ----- Product Section ----- */
+.product {
+     margin: auto;
+     padding: 0px;
+     background-color: white;
+     border-radius: 5px;
+     margin-top: 20px;
+}
+/* ----- Photo Section ----- */
+.photo-container {
+     width: 100%;
+     height: 100%;
+     border-radius: 6px;
+     /* box-shadow: 4px 4px 25px -2px rgba(0, 0, 0, 0.3); */
+}
+.photo-main {
+     border-radius: 6px 6px 0 0;
+     height: 300px;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.photo-album {
+     margin-top: 25px;
+     padding: 0em 1em;
+     border-radius: 0 0 6px 6px;
+     background-color: #fff;
+}
+.photo-album ul {
+     display: flex;
+     justify-content: space-around;
+     list-style: none;
+    padding-left: 0;
+}
+.photo-album li {
+     float: left;
+     width: 55px;
+     height: 55px;
+     padding: 7px;
+     border: 1px solid #a6a6a6;
+     border-radius: 3px;
+}
+.photo-album li img {
+     width: 38px;
+    height: 38px;
+}
+/* ----- Informations Section ----- */
+.product__info {
+     padding: 20px 30px;
+}
+.title h1 {
+     margin-bottom: 0.1em;
+     color: #4c4c4c;
+     font-size: 21px;
+     font-weight: 700;
+}
+.title span {
+     font-size: 14px;
+     font-weight: 500;
+     color: #4c5c6c;
+}
+.price {
+     margin: 15px 0;
+     color: #ff3f40;
+     font-size: 18px;
+}
+.price span {
+     padding-left: 0.15em;
+     font-size: 35px;
+}
+.description {
+     font-size: 18px;
+     margin: 10px 0px 20px 0px;
+}
+.buy--btn {
+     padding: 1.5em 3.1em;
+     border: none;
+     border-radius: 7px;
+     font-size: 0.8em;
+     font-weight: 700;
+     letter-spacing: 1.3px;
+     color: #fff;
+     background-color: #ff3f40;
+     box-shadow: 2px 2px 25px -7px #4c4c4c;
+     cursor: pointer;
+}
+.buy--btn:active {
+     transform: scale(0.97);
+}
